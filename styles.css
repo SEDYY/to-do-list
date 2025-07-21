@@ -1,0 +1,57 @@
+body{
+    background-color: #191919;
+    color: aliceblue;
+     text-align: center; /* ЦЕНТРУЕТ ТЕКСТ НА ВСЕМ САЙТЕ УБРАТЬ ПОТОМ */
+}
+
+/* ГЛАВНАЯ ПАНЕЛЬ (НА НЕЙ ВСЯ СТРАНИЦА) */
+.main-panel{
+    display: flex;
+    justify-content: center;
+}
+
+/* КЛАСС ДЛЯ ВСЕХ СТОЛБИКОВ */
+.column{
+    width: 410px;
+    height: 700px;
+    border-radius: 15px;
+}
+
+/* КЛАССЫ ДЛЯ ЗАДАЧЕК */
+.task{
+    width: 390px;
+    height: 225px;
+    border-radius: 15px;
+}
+
+.add-task{
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 15px;
+
+}
+
+/* АЙДИШНИКИ ДЛЯ НАСТРОЙКИ КАЖДОГО СТОЛБА ЕПТА */
+#to-do{
+    background-color: #202020;
+}
+
+#doing{
+    background-color: #201F18;
+}
+
+#done{
+    background-color: #20251E;
+}
+
+/* АЙДИЩНИКИ ДЛЯ НАСТРОЙКИ КАЖДОЙ ЗАМЕТКИ В СТОЛБИКАХ */
+#to-do-task{
+    background-color: #414141;
+}
+
+#doing-task{
+    background-color: #42402E;
+}
+
+#done-task{
+    background-color: #3C4638;
+}
