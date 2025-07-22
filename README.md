@@ -4,12 +4,10 @@
 
 ## Демо
 
-Попробуйте живое демо [здесь](https://sedyy.github.io/to-do-list/).
+Попробуйте живое демо [ЗДЕСЬ](https://sedyy.github.io/to-do-list/).
 
 ## Скриншоты
-
-![Скриншот Kanban Board](<img width="1920" height="1037" alt="image" src="https://github.com/user-attachments/assets/d6297bb6-c2b1-42f5-8d82-298c9eeac685" />
-)
+<img width="1245" height="667" alt="image" src="https://github.com/user-attachments/assets/0a71af7a-a98a-47f8-bfcf-6603dab7252a" />
 
 ## Использование
 
