@@ -7,40 +7,46 @@
     <title>to do list</title>
 </head>
 <body>
-    <header>
-        <div class="main-panel">
+    <div class="main-panel">
 
-            <!-- СТОЛБИК ТУ ДУ  -->
-            <div id="to-do" class="column">
-                <div id="to-do-task" class="task">
-                    <p>чета чета чета</p>
-                </div>
-                <div id="add-to-do-task" class="add-task">
-                    <P>+ добавить заметку</P>
-                </div>
+        <!-- СТОЛБИК ТУ ДУ  -->
+        <div id="to-do" class="column" data-column="to-do">
+            <div id="to-do-task" class="task" data-task-id="1">
+                <p>чета чета чета</p>
             </div>
-            
-            <!-- СТОЛБИК  ДУИНГ-->
-            <div id="doing" class="column">
-                <div id="doing-task" class="task">
-                    <p>чета чета чета</p>
-                </div>
-                <div id="add-doing-task" class="add-task">     
-                    <P>+ добавить заметку</P>
-                </div>
+            <div id="add-to-do-task" class="add-task" data-action="add-task"  data-column="to-do">
+                <P>+ добавить заметку</P>
             </div>
-
-            <!-- СТОЛБИК  ДАУН-->
-            <div id="done" class="column">
-                <div id="done-task" class="task">
-                    <p>чета чета чета</p>
-                </div>
-                <div id="add-done-task" class="add-task">
-                    <P>+ добавить заметку</P>
-                </div>
-            </div>
-
         </div>
-    </header>
+        
+        <!-- СТОЛБИК  ДУИНГ-->
+        <div id="doing" class="column" data-column="doing">
+            <div id="doing-task" class="task" data-task-id="2">
+                <p>чета чета чета</p>
+            </div>
+            <div id="add-doing-task" class="add-task" data-action="add-task" data-column="doing">     
+                <P>+ добавить заметку</P>
+            </div>
+        </div>
+
+        <!-- СТОЛБИК  ДАУН-->
+        <div id="done" class="column" data-column="done">
+            <div id="done-task" class="task" data-task-id="3">
+                <p>чета чета чета</p>
+            </div>
+            <div id="add-done-task" class="add-task" data-action="add-task" data-column="done">
+                <P>+ добавить заметку</P>
+            </div>
+        </div>
+
+        <template id="task-template">
+            <div class="task" data-task-id="" draggable="true">
+                <p class="task-text"></p>
+            </div>
+        </template>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

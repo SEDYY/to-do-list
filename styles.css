@@ -1,33 +1,49 @@
 body{
     background-color: #191919;
     color: aliceblue;
-     text-align: center; /* ЦЕНТРУЕТ ТЕКСТ НА ВСЕМ САЙТЕ УБРАТЬ ПОТОМ */
+    text-align: center; /* ЦЕНТРУЕТ ТЕКСТ НА ВСЕМ САЙТЕ УБРАТЬ ПОТОМ */
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+}
+
+p{
+    margin: auto;
 }
 
 /* ГЛАВНАЯ ПАНЕЛЬ (НА НЕЙ ВСЯ СТРАНИЦА) */
 .main-panel{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 /* КЛАСС ДЛЯ ВСЕХ СТОЛБИКОВ */
 .column{
-    width: 410px;
+    padding: 10px;
+    /* width: 410px; */
     height: 700px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 /* КЛАССЫ ДЛЯ ЗАДАЧЕК */
 .task{
     width: 390px;
     height: 225px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .add-task{
-    border: 2px solid rgb(192, 192, 192);
-    border-radius: 15px;
+    margin-top: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    transition: border 0.2s linear;
+}
 
+.add-task:hover{
+    border-color: azure;
 }
 
 /* АЙДИШНИКИ ДЛЯ НАСТРОЙКИ КАЖДОГО СТОЛБА ЕПТА */
